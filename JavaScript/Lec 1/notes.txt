@@ -1,0 +1,20 @@
+1)What is mean by NodeJS?
+--> To run the JS code outside the browser we use NodeJS.
+
+DataTypes
+ - Primitive - there are 7 primitive data types 
+     Number, string , undefined, boolean, NULL, symbol, begin
+
+- Non-Primitive - 
+    Object
+
+Variable Declaration:
+    let,var,const
+        const a=10;
+	let b=20;
+	var c=30;
+
+Difference between let,const,var
+	const -> value not changed 
+	let -> it gives real value to output 
+	var -> it gives changed value to output
