@@ -1,15 +1,15 @@
-const a=10;
- a=12;
- console.log(a);
+// const a=10;
+//  a=12;
+//  console.log(a);
 
- let b=2;
- var c=3;
-{
-    let b=20;
-    var c=30;
-}
- console.log(b);
- console.log(c);
+//  let b=2;
+//  var c=3;
+// {
+//     let b=20;
+//     var c=30;
+// }
+//  console.log(b);
+//  console.log(c);
 
 // activity - 1 display student information 
 let name="Shweta";
