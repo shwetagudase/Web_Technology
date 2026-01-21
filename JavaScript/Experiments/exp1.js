@@ -16,15 +16,19 @@ let name="Shweta";
 let roll_no=32;
 let email="shweta@gmail.com";
 console.log(  name, roll_no, email);
+document.writeln(name,roll_no,email)
 
 // activity 2 - number is even or odd
 
 let num = 2;
 if (num % 2 == 0){
     console.log("It is even number");
+    document.writeln("It is even number")
 }
 else{
     console.log("It is odd number");
+    document.writeln("It is odd number ")
+
 }
 
 //activity 3 - student is pass or fail
@@ -33,9 +37,11 @@ let marks=65;
 
 if(marks>=40){
     console.log("Student is pass..")
+    document.writeln("Student is pass..")
 }
 else{
     console.log("Student is Fail..")
+    document.writeln("Student is Fail..")
 }
 
 
@@ -43,6 +49,7 @@ else{
 
 for (let i=1;i<=20;i++){
     console.log(i)
+    document.writeln(i)
 }
 
 
@@ -52,3 +59,4 @@ let x=10;
 y=x;
 x=2001;
 console.log(x,y)
+document.writeln(x,y)
