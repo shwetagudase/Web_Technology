@@ -1,0 +1,17 @@
+after completing DOM we have to make 2 projects on javascript 
+DOM: document Object model
+DOM is the bridge between HTML and js
+It is Programming interface.
+When Brower loads an html page It converts HTML into an Object that Object Struct is called DOM.
+JS uses DOM to read,change and delete HTML elements.
+
+DOM Tags
+activity 1: write the uses of following:
+document.getElementById("title)
+document.getElementById("title).class
+document.getElementById("title).className
+document.getElementById("title).setAttributes
+document.getElementById("title).getAttributes
+document.getElementById("title).getmethods
+activity 2: querySelector and querySelectorAll difference
+activity 3: create one simple project based on js and DOM
