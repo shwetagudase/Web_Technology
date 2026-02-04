@@ -7,11 +7,15 @@ JS uses DOM to read,change and delete HTML elements.
 
 DOM Tags
 activity 1: write the uses of following:
-document.getElementById("title)
-document.getElementById("title).class
-document.getElementById("title).className
-document.getElementById("title).setAttributes
-document.getElementById("title).getAttributes
-document.getElementById("title).getmethods
+document.getElementById("title) // to access the element we can change text, style, class, etc.
+document.getElementById("title).className //Gets or sets the class name of the selected element.
+document.getElementById("title).setAttributes//Adds or updates an attribute of an element.
+document.getElementById("title).getAttributes//Returns the value of a specified attribute.
+document.getElementById("title).innerHTML//get or set the HTML content inside an element
+
 activity 2: querySelector and querySelectorAll difference
+document.querySelector(".text"); // returns only one element 
+document.querySelectorAll("selector");//Selects all matching elements.Returns a NodeList (collection of elements)
+
 activity 3: create one simple project based on js and DOM
+
