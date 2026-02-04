@@ -1,0 +1,8 @@
+DOM  Manupulation : //show error msg, change colors of bckground, diplay the msg after completing the task like successfully logged in 
+DOM Manupulation is changing html by using js
+Example: error msg,successfully msg,clear input fields,change the background color.
+3 Parts:
+        html -- form code
+        css-- style //change design
+        js--DOM changes
+Form Validation : 
