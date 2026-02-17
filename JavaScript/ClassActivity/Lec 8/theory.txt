@@ -1,0 +1,43 @@
+Event is an Action that happens in the browser. 
+    eg: clicking a button, moving mouse, pressing key, submitting form, loading page.
+Js can detect these events and responds to them 
+types of event :
+    1) mouse event - click,dblclick,mouseover,mouseout
+    2) keyboard event- keydown,keyup
+    3) brower event - load resize,scroll
+                <img id="tiger"
+                src="https://images.unsplash.com/photo-1546182990-dffeafbe841d"
+                alt="Tiger" onclick="alert('hii')"> 
+                this is not a good way coz 
+                html should contain strct and js contain logic.
+                it is hard to maintain in big projects
+good way : in script tag 
+    <script>
+    document.getElementById('japan').onclick=function(){
+        alert('japan')
+    } 
+    select element to assign function to click event when clicked function run.
+    only one event can be assigned can not handle multiple events/listerns properly.
+    document.getElementById('japan').
+
+    activity:
+    jquery 
+    type 
+    timestamp
+    default prevented
+    target
+    src element 
+    current target
+    client x 
+    client y
+    screen x
+    screen y 
+    alt ,ctrl,shift keys 
+
+addEventListener : is a JS method used to attach an event handler to an HTML elemt so that specific function runs when a particular method occurs 
+event goes to inner  element to parent and parent to document 
+ false:child to parent //event propagation
+ true:parent to child // event capturing 
+
+
+
