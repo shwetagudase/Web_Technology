@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation DOM</title>
+</head>
+<body>
+
+  <h2>Register Form</h2>
+
+  <form id="myForm">
+    <!-- Name -->
+    <div>
+      <label>Name:</label><br>
+      <input type="text" id="username" required>
+      <p id="nameError"></p>
+    </div>
+
+    <br>
+
+    <!-- Email -->
+    <div>
+      <label>Email:</label><br>
+      <input type="email" id="email" required>
+      <p id="emailError"></p>
+    </div>
+
+    <br>
+
+    <!-- Password -->
+    <div>
+      <label>Password:</label><br>
+      <input type="password" id="password" required>
+      <p id="passwordError"></p>
+    </div>
+
+    <br>
+
+    <!-- Confirm Password -->
+    <div>
+      <label>Confirm Password:</label><br>
+      <input type="password" id="confirmPassword" required>
+      <p id="confirmError"></p>
+    </div>
+
+    <br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

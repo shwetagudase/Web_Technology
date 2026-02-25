@@ -1,0 +1,31 @@
+Promises:
+A Promises is an object that represents future result of an async opration 
+means I promise to give result later.
+e.g : zomato appln
+It has 3 states: 1)pending  or waiting 2)resolve / success 3) reject / fail
+e.g.: 
+                  pending
+                    |
+                    |
+                    |
+                resolve/reject
+
+Fetch :
+It is js method used to make http request 
+It returns Promiseswhen we need the data from server then we use this fetch method 
+syntax:
+fetch('url')
+e.g.
+fetch("hhtps://jsonplaceholder.typicode.com/users");
+
+
+
+
+
+
+
+
+
+
+
+
