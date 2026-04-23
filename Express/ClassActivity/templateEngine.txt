@@ -1,0 +1,10 @@
+template Engine allows developers to generate dynamic html page using data from the servers
+Instead of static html pages are created dynamically
+popular templates : EJS(embedded JS),PUG,HandleWars
+why it is used?
+they help in dynamic content, code reuseability, seperate logic from html.
+example using EJS steps:
+install : npm install EJS
+server.js  // js logic 
+activities: 1. notes 2.additional concepts - static files,express router, complete express cha workflow 
+

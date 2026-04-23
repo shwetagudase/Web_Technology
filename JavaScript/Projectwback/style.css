@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#weatherResult {
+    margin-top: 20px;
+}
+body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    color: black;
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
+.dark .container {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#toggleMode {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

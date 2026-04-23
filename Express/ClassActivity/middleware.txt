@@ -1,0 +1,105 @@
+queryparameters
+
+
+
+The response object send data by 
+methods 
+response.send()
+response.json() // json format data send
+response.status()  // check htt status
+response.sendFile() // sending file to server
+
+logic of exp 5:
+app.get('/',(req,res=>{
+    const T=new Date();
+    response.json({
+            message: "Hello",
+            Time:T
+    })
+}));
+
+import
+   |
+middleware
+    |  
+routes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

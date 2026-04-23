@@ -1,0 +1,25 @@
+databinding is a binding technique which connect ui to code
+2 ways types of data binding
+
+one way: interpolation {{value}} ,proper= [proper]=value, event=(click)='()'// syntax 
+interpolation {{value}}  : show data from ts to html // defn
+proper= [proper]=value : by html property to th variable // defn
+event=(click)='()' : call function on event  //defn
+two way: ng model='value'
+ng model='value': sync data both ways
+    ts to html - html to ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

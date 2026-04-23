@@ -63,15 +63,6 @@ async function getWeather(city) {
 
         console.log(data); 
 
-        if (data.cod === "404") {
-            result.innerHTML = "City not found";
-            return;
-        }
-
-        if (data.cod === 401) {
-            result.innerHTML = "Invalid API key";
-            return;
-        }
 
         const temp = data.main.temp;
         const weather = data.weather[0].main;

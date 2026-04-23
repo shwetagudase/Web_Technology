@@ -1,0 +1,3 @@
+services like a helper class
+It is used to store data and share logic so many components are used 
+instead of writing the same code in every component we write it ince in a services

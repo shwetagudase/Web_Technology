@@ -1,0 +1,63 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    margin: 100px auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Light mode (default) */
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: black;
+    transition: 0.3s;
+}
+
+/* Dark mode */
+.dark {
+    background: #121212;
+    color: white;
+}
+
+/* Container dark */
+.dark .container {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Card dark */
+.dark .card {
+    background: #1e1e1e;
+    color: white;
+}
+
+/* Toggle button */
+#toggleMode {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}

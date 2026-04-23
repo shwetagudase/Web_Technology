@@ -1,0 +1,14 @@
+angular is typescript based frontend framework developed by google.
+It helps us build a single page appln(SPA).
+where the page does not fully reload then navigation betn diffnt views
+example : YouTube
+Tools:
+    nodeJS
+    angular npm(node package manager)
+    angular CLI(command line Interface)
+CLI used for create and manage angular apps
+npm install -g @angular/cli
+ng new my-first-appln
+ng means angular
+ng s  OR ng serve to run the appln
+    
